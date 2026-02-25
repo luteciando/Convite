@@ -1,0 +1,48 @@
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estilo.css">
+        <title>Convite</title>
+    </head>
+ <!-- Tela inicial -->
+    <div id="tela-inicio" class="tela ativa">
+        <h1 id="titulo-inicio">Você quer ver a novidade<br>ou prefere seguir como amigo?</h1>
+
+        <button class="btn" id="btn-novidade">Quero ver a novidade</button>
+        <button class="btn btn-negativo" id="btn-amizade">Prefiro seguir como amigo</button>
+    </div>
+
+    <!-- Tela do convite -->
+    <div id="tela-convite" class="tela">
+        <h1 id="titulo-convite">Aceita sair comigo?</h1>
+
+        <div class="botoes-convite">
+            <button class="btn" id="btn-sim">Sim</button>
+            <button class="btn" id="btn-nao">Não</button>
+        </div>
+
+        <div id="area-data" class="escondido">
+            <p id="texto-data">Qual dia fica melhor para você?</p>
+            <input type="date" id="data-encontro">
+            <button class="btn" id="btn-whats">Enviar resposta pelo WhatsApp</button>
+        </div>
+    </div>
+
+    <!-- Tela da amizade -->
+    <div id="tela-amizade" class="tela">
+        <img src="img/narutotriste.jpg" alt="despedida" class="imagem-amizade">
+        <p id="texto-amizade">Obrigado por tudo até aqui 💔</p>
+
+        <button class="btn" id="btn-piada">Me enviar uma piada no WhatsApp</button>
+        <button class="btn" id="btn-voltar">Voltar ao início</button>
+    </div>
+    <script defer src="js/script.js"></script>
+    <!-- Música -->
+    <audio id="musica" src="audio/jazzfundo.mp3"></audio>
+
+    <button id="btn-musica">🎵 Música</button>
+
+</body>
+    </html>

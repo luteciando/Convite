@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #0f0a0a;
+    color: #ffd8d8;
+    font-family: "Georgia", serif;
+    text-align: center;
+}
+
+.tela {
+    display: none;
+    padding: 50px 20px;
+}
+
+.ativa {
+    display: block;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+    color: #ffb3b3;
+    text-shadow: 0 0 10px #ff000055;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #ffcdcd;
+}
+
+.btn {
+    background: #b30000;
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    font-size: 19px;
+    border-radius: 10px;
+    margin: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 10px #ff000044;
+}
+
+.btn:hover {
+    background: #ff1a1a;
+    transform: scale(1.05);
+}
+
+.btn-negativo {
+    background: #333;
+}
+
+#btn-musica {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #b30000;
+    padding: 15px 20px;
+    border-radius: 50%;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.imagem-amizade {
+    width: 85%;
+    max-width: 390px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px #ff000055;
+}
+
+input[type="date"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: 2px solid #b30000;
+    border-radius: 8px;
+    background: #1d0e0e;
+    color: #ffdada;
+}
+
+.escondido {
+    display: none;
+}
